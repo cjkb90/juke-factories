@@ -27,7 +27,7 @@
       </div>
 
       <div class="col-xs-10">
-        <div class="album" ng-controller="AlbumCtrl" ng-if="false">
+        <div class="album" ng-controller="AlbumCtrl" ng-if="true">
           <p>
             <h3>{{ album.name }}</h3>
             <h5>Length is: {{ album.length }}</h5>
@@ -56,7 +56,7 @@
             </tbody>
           </table>
         </div>
-        <div ng-if="true" ng-controller = "albumsController">
+        <div ng-if="false" ng-controller = "albumsController">
           <h3>Albums</h3>
           <div class="row">
             <div class="col-xs-4" ng-repeat="album in albums">
